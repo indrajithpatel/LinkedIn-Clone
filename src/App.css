@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #f3f2ef;
+}
+
+.app__container {
+  display: flex;
+}
+
+.app__leftsidebar {
+  flex: 0.25;
+}
+
+.app__main {
+  flex: 0.5;
+}
+
+.app__widgets {
+  flex: 0.25;
+}

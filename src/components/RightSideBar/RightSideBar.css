@@ -1,0 +1,37 @@
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    border-right: 0.1px solid lightgray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px
+}
+
+.rightsidebar section {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+}
+
+.rightsidebar li {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.rightsidebar li:hover {
+    background-color: lightgrey;
+}
+
+.rightsidebar span {
+    font-size: 14px;
+    font-family:revert;
+    color: grey;
+}
+
+.rightsidebar p {
+    font-weight: bold;
+    font-size: 14px
+}
